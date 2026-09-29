@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: unisphere-api
+unisphere:
+  integrity:
+    threshold: ${INTEGRITY_THRESHOLD:0.6}
+  lost-found:
+    match-threshold: ${LOST_FOUND_MATCH_THRESHOLD:0.6}

@@ -1,0 +1,16 @@
+.env
+*.iml
+.idea/
+.dart_tool/
+build/
+backend/target/
+node_modules/
+mobile/.flutter-plugins*
+mobile/android/local.properties
+android/key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/service-account*.json
+firebase-debug.log
+firestore-debug.log
+ui-debug.log

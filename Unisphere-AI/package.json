@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "emulators": "firebase emulators:start --project demo-unisphere",
+    "test:rules": "firebase emulators:exec --project demo-unisphere --only firestore \"node --test tests/firestore.rules.test.mjs\""
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.2",
+    "firebase": "^12.19.0",
+    "firebase-tools": "^15.31.0"
+  }
+}
